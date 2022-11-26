@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../assets/style/font/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body class="h-[100vh] bg-gradient-to-t from-blue-900 to-white">
+    <div class="todo-container p-2 translate-y-[5em]"> 
+        <div class="todo p-8 bg-white  shadow-lg shadow-black/50 sm:w-[60%] sm:m-auto">
+            <h1 class="font-bold text-2xl">Todo App</h1>
+            <form action="#" class="todo-input flex align-middle mt-10" >
+                <input type="text" placeholder="Add your new todo" class=" outline-none border pl-2 w-[100%] mr-1 rounded-md placeholder:text-[15px] p-0" maxlength="20">
+                <button class="add fa-solid far fa-plus-square text-blue-800 text-[35px]"></button>
+            </form>
+            <div class="todo-updates pb-9 relative">
+                
+            </div>
+            <div class="todo-count flex align-middle justify-between mt-[20px]">
+                <p>You have <span class="count">0</span> pending tasks</p>
+                <button class="clear bg-blue-800 text-white p-1.5 pr-4 pl-4 rounded">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/style/javascript/todo.js"></script>
+</body>
+
+
+</html>
